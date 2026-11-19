@@ -89,7 +89,7 @@ SG-IT-Users
 
 **Verified result:** The Finance group no longer appears in the account's returned group membership; the IT group remains, and the account remains enabled.
 
-## Evidence screenshots (upload pending)
+## Evidence screenshots (uploaded and linked)
 
 - `screenshots/01-uar-existing-users.png` — baseline account inventory
 - `screenshots/02-uar-security-groups.png` — departmental groups
@@ -102,3 +102,26 @@ SG-IT-Users
 ## Scope limitations
 
 No Entra ID synchronization, application-specific permission checks, session revocation, or interactive sign-in testing was performed. AD group membership is not proof of effective resource access.
+
+## Evidence gallery
+
+### Account inventory
+![Account inventory](../screenshots/01-uar-existing-users.png)
+
+### Departmental security groups
+![Departmental security groups](../screenshots/02-uar-security-groups.png)
+
+### Approved group membership baseline
+![Approved group membership baseline](../screenshots/03-uar-current-memberships.png)
+
+### Finding — employee attributes
+![Finding — employee attributes](../screenshots/04-uar-excessive-access-user-attributes.png)
+
+### Finding — excessive Finance membership
+![Finding — excessive Finance membership](../screenshots/05-uar-excessive-access-group-membership.png)
+
+### Remediation — account status
+![Remediation — account status](../screenshots/06-uar-after-remediation-user-status.png)
+
+### Remediation — authorized group retained
+![Remediation — authorized group retained](../screenshots/07-uar-after-remediation-group-membership.png)
