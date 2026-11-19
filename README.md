@@ -32,7 +32,7 @@ A simulated quarterly access review found **Michael Johnson** (`mjohnson`), an I
 | Groups | `SG-IT-Users`, `SG-HR-Users`, `SG-Finance-Users` |
 | Tools | Active Directory PowerShell module |
 
-## Evidence gallery — pending screenshot upload
+## Evidence gallery — screenshots uploaded
 
 | Evidence | Screenshot |
 | --- | --- |
@@ -54,4 +54,27 @@ Identity inventory · Role-based group assignment · Least privilege · Access r
 
 ## Limitations
 
-The verified results concern **AD account attributes and group memberships**. No file-share, application, cloud, or session-level access tests were performed. A simulated reviewer decision is not a production approval. Screenshot links will resolve after the evidence is uploaded.
+The verified results concern **AD account attributes and group memberships**. No file-share, application, cloud, or session-level access tests were performed. A simulated reviewer decision is not a production approval. Screenshot files are uploaded and embedded below.
+
+## PowerShell evidence gallery
+
+### Account inventory
+![Account inventory](screenshots/01-uar-existing-users.png)
+
+### Departmental security groups
+![Departmental security groups](screenshots/02-uar-security-groups.png)
+
+### Approved group membership baseline
+![Approved group membership baseline](screenshots/03-uar-current-memberships.png)
+
+### Finding — employee attributes
+![Finding — employee attributes](screenshots/04-uar-excessive-access-user-attributes.png)
+
+### Finding — excessive Finance membership
+![Finding — excessive Finance membership](screenshots/05-uar-excessive-access-group-membership.png)
+
+### Remediation — account status
+![Remediation — account status](screenshots/06-uar-after-remediation-user-status.png)
+
+### Remediation — authorized group retained
+![Remediation — authorized group retained](screenshots/07-uar-after-remediation-group-membership.png)
